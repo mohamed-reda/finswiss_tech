@@ -10,7 +10,7 @@ It's an example for the getting the data from the API using HTTP request
 | widgets | contents the common UI Widgets      |
 | bloc | contents the bloc state management that manage the state|
 | models | contents the logic dart models and the generated model code   |
-| repository | Here I used the Repository Pattern that have the functions of dealing with the API    |
+| repository | contents the functions of dealing with the API    |
 
 
 
