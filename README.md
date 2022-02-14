@@ -19,4 +19,7 @@ http: ^0.13.4
 ## The Libraries
 | Libraries     | Libraries use |
 | ------------- | ------------- |
-| http      | A composable, multi-platform, Future-based API for HTTP requests.n |
+| http      | A composable, multi-platform, Future-based API for HTTP requests |
+| json_annotation       | Classes and helper functions that support JSON code generation via the `json_serializable` package. | 
+| json_serializable      | Automatically generate code for converting to and from JSON by annotating Dart classes. |
+|   build_runner    |  A build system for Dart code generation and modular compilation.    |
