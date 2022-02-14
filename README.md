@@ -14,8 +14,8 @@ It's an example for the getting the data from the API using HTTP request
 
 
 
-http: ^0.13.4
-  json_annotation: ^4.4.0
+
+
 ## The Libraries
 | Libraries     | Libraries use |
 | ------------- | ------------- |
