@@ -8,10 +8,10 @@ class People {
   factory People.fromJson(Map<String, dynamic> json) => _$PeopleFromJson(json);
   Map<String, dynamic> toJson() => _$PeopleToJson(this);
   People({
-    required this.count,
-    required this.next,
-    required this.previous,
-    required this.results,
+    this.count = 0,
+    this.next = '',
+    this.previous = '',
+    this.results = const [],
   });
 
   int count;
