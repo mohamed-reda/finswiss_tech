@@ -1,4 +1,4 @@
-# Flutter Encryption/Decryption
+# Finswiss tech
 
 It's an example for the getting the data from the API using HTTP request
 
