@@ -1,16 +1,22 @@
-# finswiss_tech
+# Flutter Encryption/Decryption
 
-A new Flutter project.
+It's an example for the getting the data from the API using HTTP request
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## The App structure
+| Folders     |  contents |
+| ------------- | ------------- |
+| pages | contents the ui pages      |
+| widgets | contents the common UI Widgets      |
+| bloc | contents the bloc state management that manage the state|
+| models | contents the logic dart models and the generated model code   |
+| repository | Here I used the Repository Pattern that have the functions of dealing with the API    |
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+http: ^0.13.4
+  json_annotation: ^4.4.0
+## The Libraries
+| Libraries     | Libraries use |
+| ------------- | ------------- |
+| http      | A composable, multi-platform, Future-based API for HTTP requests.n |
